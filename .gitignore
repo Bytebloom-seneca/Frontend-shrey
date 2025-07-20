@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dependencies
 node_modules/
 /.pnp
@@ -15,15 +16,41 @@ node_modules/
 .env.development.local
 .env.test.local
 .env.production.local
+=======
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+>>>>>>> a06890122da20872da64843887f6c256ea354a07
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+<<<<<<< HEAD
 # IDE
 .vscode/
 .idea/
 
 # OS
 Thumbs.db
+=======
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+
+# Misc
+*.log 
+>>>>>>> a06890122da20872da64843887f6c256ea354a07
